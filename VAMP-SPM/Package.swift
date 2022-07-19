@@ -12,7 +12,13 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "VAMP-SPM",
-            targets: ["VAMP-SPM"]),
+            targets: [
+                "VAMP",
+                "VAMPMaioAdapter",
+                "VAMPNendAdapter",
+                "VAMPTapjoyAdapter",
+                "VAMPUnityAdsAdapter"
+            ]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -21,11 +27,11 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-//        .target(
-//            name: "VAMP-SPM",
-//            dependencies: []),
+        .target(
+            name: "VAMP-SPM",
+            dependencies: []),
         .binaryTarget(
-            name: "VAMP-SDK",
+            name: "VAMP",
             url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMP-v4.4.2.zip",
             checksum: "761cdb9334c5e4d1ba435cdca63e0dc5a44951e71bbbfc02b9dc5741faff59d9"
         ),
