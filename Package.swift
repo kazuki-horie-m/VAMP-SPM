@@ -18,8 +18,8 @@ let package = Package(
                 "Maio",
 //                "VAMPNendAdapter",
 //                "NendAd",
-                "VAMPTapjoyAdapter",
-                "Tapjoy",
+//                "VAMPTapjoyAdapter",
+//                "Tapjoy",
                 "VAMPUnityAdsAdapter",
                 "UnityAds",
             ]),
@@ -60,17 +60,17 @@ let package = Package(
 //            url: "https://github.com/fan-ADN/nendSDK-iOS-pub/releases/download/7.3.0/nendSDK_iOS.zip",
 //            checksum: "7dbe3eac76db6ab610c999dbaadbcc1629a85ebf7606195e89823c1872763c1a"
 //        ),
-        .binaryTarget(
-            name: "VAMPTapjoyAdapter",
-            url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPTapjoyAdapter-v12.10.0.0.zip",
-            checksum: "a5e3a36585d26460d674a96ea6fb89855be7e39d84c637f1f24bc30950e3bdcd"
-        ),
-        .binaryTarget(
-            name: "Tapjoy",
-            path: "Libraries/Tapjoy.xcframework"
+//        .binaryTarget(
+//            name: "VAMPTapjoyAdapter",
+//            url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPTapjoyAdapter-v12.10.0.0.zip",
+//            checksum: "a5e3a36585d26460d674a96ea6fb89855be7e39d84c637f1f24bc30950e3bdcd"
+//        ),
+//        .binaryTarget(
+//            name: "Tapjoy",
+//            path: "Libraries/Tapjoy.xcframework"
 //            url: "https://sdk.tapjoy.com/releases/12.9.1/TapjoySDK_iOS_v12.9.1.zip",
 //            checksum: "19cd1d1faf2a3fb3d145c2d15a010f5869df8a53e018d68f45e2318539cf5cdb"
-        ),
+//        ),
         .binaryTarget(
             name: "VAMPUnityAdsAdapter",
             url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPUnityAdsAdapter-v4.2.1.0.zip",
