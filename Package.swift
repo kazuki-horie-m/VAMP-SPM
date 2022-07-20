@@ -16,7 +16,7 @@ let package = Package(
                 "VAMP",
                 "VAMPMaioAdapter",
                 "Maio",
-                "VAMPNendAdapter",
+//                "VAMPNendAdapter",
 //                "NendAd",
                 "VAMPTapjoyAdapter",
                 "Tapjoy",
@@ -49,11 +49,11 @@ let package = Package(
             url: "https://github.com/imobile-maio/maio-iOS-SDK/releases/download/v1.6.2/Maio.xcframework.zip",
             checksum: "d2043ffd543649d39d845ea162d67de21cd1e3ce855c1e11bec2f9b8d671a8cb"
         ),
-        .binaryTarget(
-            name: "VAMPNendAdapter",
-            url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPNendAdapter-v7.3.0.0.zip",
-            checksum: "56d73a1c6cf15cf7c0af7d43056bc71c7bc764bdaeabd4e5b0ad1b5a9f46a365"
-        ),
+//        .binaryTarget(
+//            name: "VAMPNendAdapter",
+//            url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPNendAdapter-v7.3.0.0.zip",
+//            checksum: "56d73a1c6cf15cf7c0af7d43056bc71c7bc764bdaeabd4e5b0ad1b5a9f46a365"
+//        ),
 //        .binaryTarget(
 //            name: "NendAd",
 //            path: "Libraries/NendAd.xcframework"
