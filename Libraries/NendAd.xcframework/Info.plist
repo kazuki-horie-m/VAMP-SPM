@@ -21,7 +21,7 @@
 			<key>LibraryIdentifier</key>
 			<string>ios-arm64_i386_x86_64-simulator</string>
 			<key>LibraryPath</key>
-			<string>Tapjoy.framework</string>
+			<string>NendAd.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>arm64</string>
