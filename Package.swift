@@ -16,8 +16,8 @@ let package = Package(
                 "VAMP",
                 "VAMPMaioAdapter",
                 "Maio",
-//                "VAMPNendAdapter",
-//                "NendAd",
+                "VAMPNendAdapter",
+                "NendAd",
                 "VAMPTapjoyAdapter",
                 "Tapjoy",
                 "VAMPUnityAdsAdapter",
@@ -49,17 +49,19 @@ let package = Package(
             url: "https://github.com/imobile-maio/maio-iOS-SDK/releases/download/v1.6.2/Maio.xcframework.zip",
             checksum: "d2043ffd543649d39d845ea162d67de21cd1e3ce855c1e11bec2f9b8d671a8cb"
         ),
-//        .binaryTarget(
-//            name: "VAMPNendAdapter",
-//            url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPNendAdapter-v7.3.0.0.zip",
-//            checksum: "56d73a1c6cf15cf7c0af7d43056bc71c7bc764bdaeabd4e5b0ad1b5a9f46a365"
-//        ),
-//        .binaryTarget(
-//            name: "NendAd",
+        .binaryTarget(
+            name: "VAMPNendAdapter",
+            url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPNendAdapter-v7.3.0.0.zip",
+            checksum: "56d73a1c6cf15cf7c0af7d43056bc71c7bc764bdaeabd4e5b0ad1b5a9f46a365"
+        ),
+        .binaryTarget(
+            name: "NendAd",
 //            path: "Libraries/NendAd.xcframework"
 //            url: "https://github.com/fan-ADN/nendSDK-iOS-pub/releases/download/7.3.0/nendSDK_iOS.zip",
 //            checksum: "7dbe3eac76db6ab610c999dbaadbcc1629a85ebf7606195e89823c1872763c1a"
-//        ),
+            url: "https://github.com/kazuki-horie-m/NendAd-SPM/raw/main/NendAd.xcframework.zip",
+            checksum: "3f5e1af0c55f30822f0f8b6368e272082252f18ae14a6b0340506c55dd75644e"
+        ),
         .binaryTarget(
             name: "VAMPTapjoyAdapter",
             url: "https://d2dylwb3shzel1.cloudfront.net/iOS/VAMPTapjoyAdapter-v12.10.0.0.zip",
