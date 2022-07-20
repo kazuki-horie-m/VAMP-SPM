@@ -1,3 +1,3 @@
 # VAMP-SPM
 
-A description of this package.
+SPM対応していないframeworkを無理やりSPMで読み込むための実験リポジトリです
